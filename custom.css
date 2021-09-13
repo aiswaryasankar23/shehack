@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+.she-area {
+	width: 100%;
+	height: 600px;
+	position: fixed;
+	top: 100px;
+	background-image: url(assests/images/ph\ \(3\).jpg);
+	-webkit-background-size: contain;
+	background-size: cover;
+	background-position: center center;
+}
+.she-area h1 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 500px;
+	background-image: url(assests/images/tech.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 110px;
+	font-size: 40px;
+	margin: 0;
+	color: #ebebeb;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	font-size: x-large;
+	line-height: 30px;
+	color: cornsilk;
+}
+.vision-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 500px;
+	background-image: url(assests/images/ph\ \(2\).jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.vision-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 110px;
+	font-size: 40px;
+	margin: 0;
+	color: #0e0d0d;
+}
+.vision-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	font-size: xx-large;
+	line-height: 100px;
+	color: white;
+	border-color: black;
+	
+}
+.team-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 500px;
+	background-image: url(assests/images/teamb.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.team-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 190px;
+	font-size: 40px;
+	margin: 0;
+	color: #701c1c;
+}
+.team-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+	color: cornsilk;
+}
+
+
+.team-area{text-align: center;}
+
+.heading
+{ font-size: 50px;
+color: #fff;
+}
+.heading span
+{
+	font-style: italic;
+	font-size: 30px;
+}
+
+.profile {
+	float: left;
+	width: 25%;
+	padding: 50px;
+  }
+  
+ 
+  .profiles::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .name
+  {
+	  font-size: small;
+	  color: black;
+  }
+
+
+
+
+ 
